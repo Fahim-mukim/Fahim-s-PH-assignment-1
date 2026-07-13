@@ -1,0 +1,33 @@
+/*nav bar design start*/
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin:auto;
+}
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:20px;
+    padding-bottom: 10px;
+    
+}
+.nav-ul{
+    color:#575757;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+     gap: 24px;
+}
+.common-btn{
+    cursor:pointer;
+    padding: 10px 25px;
+    font-weight:550;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+
+}
