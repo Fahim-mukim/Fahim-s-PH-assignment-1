@@ -165,7 +165,6 @@ p {
 }
 .pricing-table-parents div ul li{
     padding-bottom: 5px;
-    l;
 }
 .outline-btn {
     cursor: pointer;
@@ -209,3 +208,114 @@ li::marker{
 .pro{
     color: #2563EB;
 }
+/*============================
+
+WHY ATTEND SECTION
+
+=============================*/
+
+.why-attend-section{
+
+    padding:100px 0;
+
+}
+
+.why-attend-title{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.why-attend-title h2{
+
+    font-size:38px;
+    color:#0D1B2A;
+    margin-bottom:15px;
+
+}
+
+.why-attend-title p{
+
+    color:#575757;
+    max-width:620px;
+    margin:auto;
+
+}
+
+.why-attend-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+.feature-card{
+
+    background:#ffffff;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    transition:.3s;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.feature-icon{
+
+    width:60px;
+
+    height:60px;
+
+    background:#2563EB;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:28px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+    color:#0D1B2A;
+
+    margin-bottom:12px;
+
+    font-size:22px;
+
+}
+
+.feature-card p{
+
+    color:#575757;
+
+    line-height:1.7;
+
+    padding:0;
+
+}
+/*footer section*/
+
+
