@@ -1,33 +1,75 @@
 /*nav bar design start*/
-*{
+* {
     margin: 0;
     font-family: "Inter", sans-serif;
 }
-.container{
-    max-width: 1300px;
-    margin:auto;
+
+.container {
+    max-width: 1000px;
+    margin: auto;
 }
-.nav-parent{
+
+.nav-parent {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:20px;
-    padding-bottom: 10px;
-    
+    padding-top: 20px;
+    padding-bottom: 25px;
+
 }
-.nav-ul{
-    color:#575757;
+
+.nav-ul {
+    color: #575757;
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-     gap: 24px;
+    gap: 24px;
 }
-.common-btn{
-    cursor:pointer;
+
+.common-btn {
+    cursor: pointer;
     padding: 10px 25px;
-    font-weight:550;
+    font-weight: 550;
     color: white;
     background-color: blue;
     border-radius: 8px;
 
+}
+/*hero section*/
+.hero-section {
+    /* min-height: 650px; */
+    background-image:
+        linear-gradient(rgba(4, 4, 4, 0.45), rgba(0, 0, 0, .45)),
+        url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.hero-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    text-align: center;
+    min-height: 500px;
+}
+
+.hero-content {
+    color: white;
+    max-width:700px;
+
+}
+.hero-content h1{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.hero-content p{
+    padding-bottom: 60px;
+}
+.hero-btn{
+     margin-top:120px;
 }
