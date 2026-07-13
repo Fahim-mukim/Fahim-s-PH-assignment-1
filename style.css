@@ -31,7 +31,7 @@
     padding: 10px 25px;
     font-weight: 550;
     color: white;
-    background-color: blue;
+    background-color:#2563EB;
     border-radius: 8px;
 
 }
@@ -96,21 +96,116 @@
 .speakers-images div {
     border: 1px solid #dcdcdc;
     border-radius: 12px;
-    
+
 
 }
-.speakers-images div h3,p{
-    padding: 5px 5px 5px 20px ;
+
+.speakers-images div h3,
+p {
+    padding: 5px 5px 5px 20px;
 }
 
 .speakers-images img {
     width: 500px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
 }
-.speakers-images div p{
-    color:#575757;
+
+.speakers-images div p {
+    color: #575757;
     font-size: 15px;
 }
-.speakers-p{
-    color:blue !important;
+
+.speakers-p {
+    color:#2563EB;
     font-size: 10px !important;
+}
+
+/*pricing table section*/
+.pricing-title {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.pricing-title h2 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 15px;
+
+}
+
+.pricing-section p {
+    color: #575757;
+    font-size: 15px;
+}
+
+.pricing-table-parents {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.pricing-table-parents div {
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 24px;
+}
+.pricing-table-parents div h2{
+    padding-left: 25px ;
+    
+}
+.pricing-table-parents div p{
+    padding-bottom:10px;
+}
+.pricing-table-parents div ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pricing-table-parents div ul li{
+    padding-bottom: 5px;
+    l;
+}
+.outline-btn {
+    cursor: pointer;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #2563EB;
+    background-color: white;
+    border-radius: 8px;
+    align-self: center;
+
+}
+.outline-btn,
+.common-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+}
+
+.highlighted-pricing-table{
+    background-color: #0D1B2A;
+    
+}
+.highlighted-pricing-table ul{
+    color: #575757;
+   
+}
+.highlighted-pricing-table h2{
+    color:white;
+}
+
+
+li::marker{
+    color:#2563EB;
+}
+.three-table{
+    background-color: #e8ebf3;
+}
+.three-btn{
+    background-color: #e8ebf3;
+}
+.pro{
+    color: #2563EB;
 }
