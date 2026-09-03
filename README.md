@@ -16,7 +16,7 @@ This project was created as part of my learning journey to strengthen my underst
 
 ## 📸 Project Preview
 
-![Project Screenshot](./screenshots/preview.png)
+![Project Screenshot](./images/capture.png)
 
 ---
 
