@@ -70,5 +70,5 @@ It uses only:
 
 ### 1. Clone the repository
 
-```bash
-git clone YOUR_REPOSITORY_URL
+
+git clone [YOUR_REPOSITORY_URL](https://github.com/Fahim-mukim/Fahim-s-PH-assignment-1/tree/main)
